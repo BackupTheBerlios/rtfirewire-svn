@@ -178,7 +178,7 @@ sbindir = @sbindir@
 sharedstatedir = @sharedstatedir@
 sysconfdir = @sysconfdir@
 target_alias = @target_alias@
-SUBDIRS = sim ohci
+SUBDIRS = ohci
 all: all-recursive
 
 .SUFFIXES:
