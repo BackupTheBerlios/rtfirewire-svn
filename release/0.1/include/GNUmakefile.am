@@ -1,0 +1,30 @@
+nobase_include_HEADERS = \
+	csr1212.h \
+	ieee1394.h \
+	ieee1394_types.h \
+	ieee1394_chrdev.h \
+	iso.h \
+	config_roms.h \
+	highlevel.h \
+	ieee1394_core.h \
+	hosts.h \
+	csr.h \
+	ieee1394_transactions.h \
+	bis1394.h \
+	rt1394_sys.h \
+	rtos_primitives.h \
+	rtpkbuff.h \
+	rtpc.h \
+	rt_serv.h \
+	rt1394_config.h \
+	dma.h
+	
+noinst_HEADERS = 
+	
+
+
+install-data-local:
+	$(mkinstalldirs) $(DESTDIR)$(includedir)
+	$(INSTALL_HEADER) rt-firewire_config.h $(DESTDIR)$(includedir)/rt-firewire_config.h
+
+DISTCLEANFILES = rt-firewire_config.h
