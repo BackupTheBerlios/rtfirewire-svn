@@ -1,1 +1,1 @@
-SUBDIRS = sim ohci
+SUBDIRS = ohci
