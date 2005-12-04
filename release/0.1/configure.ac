@@ -650,6 +650,7 @@ if test x$CONFIG_KBUILD = xy; then
 	stack \
 	highlevel/bis1394 \
 	drivers/ohci \
+	drivers/sim \
 	rtpkbuff \
 	rt_serv \
 	rtpc \
@@ -685,6 +686,7 @@ AC_CONFIG_FILES([GNUmakefile \
 		highlevel/bis1394/GNUmakefile \
 		drivers/GNUmakefile \
 		drivers/ohci/GNUmakefile \
+		drivers/sim/GNUmakefile \
 		rtpkbuff/GNUmakefile \
 		rt_serv/GNUmakefile \
 		rtpc/GNUmakefile \

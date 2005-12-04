@@ -20205,6 +20205,7 @@ if test x$CONFIG_KBUILD = xy; then
 	stack \
 	highlevel/bis1394 \
 	drivers/ohci \
+	drivers/sim \
 	rtpkbuff \
 	rt_serv \
 	rtpc \
@@ -20230,7 +20231,7 @@ esac
 { echo "$as_me:$LINENO: generating output" >&5
 echo "$as_me: generating output" >&6;}
 
-                                                                                                              ac_config_files="$ac_config_files GNUmakefile include/GNUmakefile highlevel/GNUmakefile highlevel/bis1394/GNUmakefile drivers/GNUmakefile drivers/ohci/GNUmakefile rtpkbuff/GNUmakefile rt_serv/GNUmakefile rtpc/GNUmakefile stack/GNUmakefile tools/GNUmakefile"
+                                                                                                                        ac_config_files="$ac_config_files GNUmakefile include/GNUmakefile highlevel/GNUmakefile highlevel/bis1394/GNUmakefile drivers/GNUmakefile drivers/ohci/GNUmakefile drivers/sim/GNUmakefile rtpkbuff/GNUmakefile rt_serv/GNUmakefile rtpc/GNUmakefile stack/GNUmakefile tools/GNUmakefile"
 
 
 cat >confcache <<\_ACEOF
@@ -20840,6 +20841,7 @@ do
   "highlevel/bis1394/GNUmakefile" ) CONFIG_FILES="$CONFIG_FILES highlevel/bis1394/GNUmakefile" ;;
   "drivers/GNUmakefile" ) CONFIG_FILES="$CONFIG_FILES drivers/GNUmakefile" ;;
   "drivers/ohci/GNUmakefile" ) CONFIG_FILES="$CONFIG_FILES drivers/ohci/GNUmakefile" ;;
+  "drivers/sim/GNUmakefile" ) CONFIG_FILES="$CONFIG_FILES drivers/sim/GNUmakefile" ;;
   "rtpkbuff/GNUmakefile" ) CONFIG_FILES="$CONFIG_FILES rtpkbuff/GNUmakefile" ;;
   "rt_serv/GNUmakefile" ) CONFIG_FILES="$CONFIG_FILES rt_serv/GNUmakefile" ;;
   "rtpc/GNUmakefile" ) CONFIG_FILES="$CONFIG_FILES rtpc/GNUmakefile" ;;
