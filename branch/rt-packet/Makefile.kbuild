@@ -1,0 +1,4 @@
+EXTRA_CFLAGS += \
+	-I/home/zhang/realtime/include \
+
+obj-m += rtpkb.o
